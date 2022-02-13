@@ -28,6 +28,7 @@ module.exports = {
         'react/jsx-props-no-spreading': 'off',
         'react/prop-types': 'off',
         'react/no-array-index-key': 'off',
+        'linebreak-style': 0,
     },
     overrides: [
         {
