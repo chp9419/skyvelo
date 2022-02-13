@@ -3,6 +3,7 @@
  * - https://prettier.io/docs/en/options.html
  */
 module.exports = {
+	
 	printWidth: 200, // 한 줄 최대 문자 수
 	tabWidth: 4, // 들여쓰기 시, 탭 너비
 	useTabs: false, // 스페이스 대신 탭 사용
@@ -13,4 +14,7 @@ module.exports = {
 	arrowParens: 'avoid', // 화살표 함수 단일 인자 시, 괄호 생략
 	proseWrap: 'never', // 마크다운 포매팅 제외
 	endOfLine: 'auto', // 개행문자 유지 (혼합일 경우, 첫 줄 개행문자로 통일)
+	rule:{
+		'linebreak-style': 0,
+	}
 };
